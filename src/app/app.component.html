@@ -1,0 +1,40 @@
+<div style="padding: 20px; font-family: sans-serif">
+  <app-locale-switcher></app-locale-switcher>
+  <hr style="margin: 20px 0" />
+  <h1>{{ content().title }}</h1>
+  <p>{{ content().subtitle }}</p>
+
+  <hr style="margin: 20px 0" />
+  <h2>Markdown</h2>
+  <div [innerHTML]="content().markdownContent"></div>
+
+  <div
+    [innerHTML]="
+      content().markdownContent.use({
+        h1: { class: 'text-red-500' },
+      })
+    "
+  ></div>
+
+  <hr style="margin: 20px 0" />
+  <h2>HTML</h2>
+  <div [innerHTML]="content().htmlContent"></div>
+
+  <div
+    [innerHTML]="
+      content().htmlContent.use({
+        strong: { class: 'text-red-500' },
+      })
+    "
+  ></div>
+
+  <hr style="margin: 20px 0" />
+  <h2>Enumeration</h2>
+  <p>Count 0: {{ content().enumeration(0) }}</p>
+  <p>Count 1: {{ content().enumeration(1) }}</p>
+
+  <hr style="margin: 20px 0" />
+  <h2>Insertion</h2>
+  <p>Insertion 0: {{ content().insertion({count: 0}) }}</p>
+</div>
+<router-outlet></router-outlet>
