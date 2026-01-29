@@ -22,7 +22,7 @@
     "@angular/ssr": "19.2.15",
     "angular-intlayer": "8.0.0",
     "express": "5.2.1",
-    "intlayer": "8.0.0",
+    "intlayer": "latest",
     "rxjs": "~7.8.0",
     "tslib": "2.3.0",
     "zone.js": "~0.15.0"
@@ -35,7 +35,7 @@
     "@types/express": "5.0.6",
     "@types/jasmine": "~5.1.0",
     "@types/node": "25.0.9",
-    "intlayer-editor": "8.0.0",
+    "intlayer-editor": "latest",
     "jasmine-core": "~5.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
