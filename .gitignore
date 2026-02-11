@@ -41,6 +41,9 @@ testem.log
 .DS_Store
 Thumbs.db
 
+# Intlayer 
+.intlayer
+
 
 # package lock - remove for git to always use the latest package to automate testing
 # if you are using this repo as a starter template, you can remove these lines
