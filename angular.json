@@ -55,17 +55,17 @@
           "defaultConfiguration": "production"
         },
         "serve": {
-          "builder": "@angular-builders/custom-webpack:dev-server",
-          "configurations": {
-            "production": {
-              "buildTarget": "angular-app:build:production"
-            },
-            "development": {
-              "buildTarget": "angular-app:build:development"
-            }
-          },
-          "defaultConfiguration": "development"
-        },
+          "builder": "@angular-devkit/build-angular:dev-server",
+					"configurations": {
+						"production": {
+							"buildTarget": "angular-app:build:production"
+						},
+						"development": {
+							"buildTarget": "angular-app:build:development"
+						}
+					},
+					"defaultConfiguration": "development"
+				},
         "extract-i18n": {
           "builder": "@angular/build:extract-i18n"
         },
