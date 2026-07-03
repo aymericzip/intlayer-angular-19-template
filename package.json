@@ -23,25 +23,25 @@
     "angular-intlayer": "9.0.0-canary.12",
     "express": "5.2.1",
     "intlayer": "9.0.0-canary.12",
-    "rxjs": "~7.8.0",
+    "rxjs": "~7.8.2",
     "tslib": "2.3.0",
-    "zone.js": "~0.15.0"
+    "zone.js": "~0.15.1"
   },
   "devDependencies": {
     "@angular-builders/custom-webpack": "19.0.1",
-    "@angular/build": "^20.3.16",
+    "@angular/build": "^20.3.31",
     "@angular/cli": "20.3.16",
     "@angular/compiler-cli": "20.3.16",
     "@types/express": "5.0.6",
-    "@types/jasmine": "~5.1.0",
-    "@types/node": "25.0.9",
+    "@types/jasmine": "~5.1.15",
+    "@types/node": "26.1.0",
     "intlayer-editor": "9.0.0-canary.12",
     "jasmine-core": "~5.6.0",
-    "karma": "~6.4.0",
+    "karma": "~6.4.4",
     "karma-chrome-launcher": "~3.2.0",
-    "karma-coverage": "~2.2.0",
+    "karma-coverage": "~2.2.1",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "typescript": "6.0.2"
+    "typescript": "6.0.3"
   }
 }
