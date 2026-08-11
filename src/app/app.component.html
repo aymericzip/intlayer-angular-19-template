@@ -10,7 +10,7 @@
 
   <div
     [innerHTML]="
-      content().markdownContent.use({
+      $any(content().markdownContent).use({
         h1: { class: 'text-red-500' },
       })
     "
@@ -22,7 +22,7 @@
 
   <div
     [innerHTML]="
-      content().htmlContent.use({
+      $any(content().htmlContent).use({
         strong: { class: 'text-red-500' },
       })
     "
